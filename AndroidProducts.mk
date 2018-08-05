@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/HAFURY/HAFURY_UMAX
+LOCAL_PATH := device/HAFURY/UMAX
 
-PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_HAFURY_UMAX.mk
+PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_UMAX.mk

@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-ifneq ($(filter HAFURY_UMAX,$(TARGET_DEVICE)),)
+ifneq ($(filter UMAX,$(TARGET_DEVICE)),)
 
-LOCAL_PATH := device/HAFURY/HAFURY_UMAX
+LOCAL_PATH := device/HAFURY/UMAX
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
